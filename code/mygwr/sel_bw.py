@@ -195,7 +195,7 @@ class Sel_BW:
                 soc_coef*rg*(np.repeat(positions[best_overall], n_particles) - positions)
             positions += velocities
 
-            # impose boundary constraints
+            # impose boundary constraints (sinks) -- TODO reevaluate this decision
             positions = np.where(positions < bounds[0], bounds[0]*np.ones((n_particles,)), positions)
             positions = np.where(positions > bounds[1], bounds[1]*np.ones((n_particles,)), positions)
 

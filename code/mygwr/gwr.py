@@ -63,7 +63,7 @@ class GWR:
         self.coords = coords
         self.y = y
         self.X = X
-        self.n, self.k = X.shape    
+        self.n, self.d = X.shape
         self.bw = bw
         self.kernel = kernel.lower()
         self.fixed = fixed
@@ -87,7 +87,9 @@ class GWR:
     def loss(self):
         if not self.fitted:
             self.fit()
-        return self.trS + 2*self.k*(self.n/(self.n - self.k - 1))
+        k = self.trS
+        sigma2 = np.linalg.norm(self.resid, 2)**2/(self.n-k-1)
+        return self.n*np.log(sigma2) + self.n*np.log(2*np.pi) + self.n*(self.n + k)/(self.n - k - 2)
 
     def fit(self, pool=None):
         if pool:
