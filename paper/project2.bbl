@@ -1,0 +1,262 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Akaike1973}{article}{}
+      \name{author}{1}{}{%
+        {{hash=71ea86082a80cba140f9ff16828ad082}{%
+           family={Akaike},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{71ea86082a80cba140f9ff16828ad082}
+      \strng{fullhash}{71ea86082a80cba140f9ff16828ad082}
+      \strng{bibnamehash}{71ea86082a80cba140f9ff16828ad082}
+      \strng{authorbibnamehash}{71ea86082a80cba140f9ff16828ad082}
+      \strng{authornamehash}{71ea86082a80cba140f9ff16828ad082}
+      \strng{authorfullhash}{71ea86082a80cba140f9ff16828ad082}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2nd International Symposium on Information Theory, Tsahkadsor, Armenia, USSR, September 2-8, 1971}
+      \field{title}{Information theory and an extension of the maximum likelihood principle}
+      \field{year}{1973}
+      \field{pages}{267\bibrangedash 281}
+      \range{pages}{15}
+    \endentry
+    \entry{Bonyadi2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=67ad5f1ca3d17c0f7d096c53a6233a60}{%
+           family={Bonyadi},
+           familyi={B\bibinitperiod},
+           given={M.R.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f8ddcaba3477f0adbf4f08d891669b3a}{%
+           family={Michalewicz},
+           familyi={M\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{961e98d625cc402b1bb4064c73d9286b}
+      \strng{fullhash}{961e98d625cc402b1bb4064c73d9286b}
+      \strng{bibnamehash}{961e98d625cc402b1bb4064c73d9286b}
+      \strng{authorbibnamehash}{961e98d625cc402b1bb4064c73d9286b}
+      \strng{authornamehash}{961e98d625cc402b1bb4064c73d9286b}
+      \strng{authorfullhash}{961e98d625cc402b1bb4064c73d9286b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Computation}
+      \field{number}{25}
+      \field{title}{Particle swarm optimization for single objective continuous space problems: a review}
+      \field{volume}{1}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 54}
+      \range{pages}{54}
+    \endentry
+    \entry{Brent1973}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=5b885306fdcb3c1d1a6691ad03949f89}{%
+           family={Brent},
+           familyi={B\bibinitperiod},
+           given={R.P.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall}%
+      }
+      \strng{namehash}{5b885306fdcb3c1d1a6691ad03949f89}
+      \strng{fullhash}{5b885306fdcb3c1d1a6691ad03949f89}
+      \strng{bibnamehash}{5b885306fdcb3c1d1a6691ad03949f89}
+      \strng{authorbibnamehash}{5b885306fdcb3c1d1a6691ad03949f89}
+      \strng{authornamehash}{5b885306fdcb3c1d1a6691ad03949f89}
+      \strng{authorfullhash}{5b885306fdcb3c1d1a6691ad03949f89}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Chapter 4: An Algorithm with Guaranteed Convergence for Finding a Zero of a Function}
+      \field{title}{Algorithms for Minimization without Derivatives}
+      \field{year}{1973}
+    \endentry
+    \entry{Fotheringham2003}{book}{}
+      \name{author}{3}{}{%
+        {{hash=4d7f87b2a9739a941de23c97921123a2}{%
+           family={Fotheringham},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=edefca6e33c847c5bbf396288bc9b787}{%
+           family={Brunsdon},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7855dbc9f9ba67b15053bb00c6e53466}{%
+           family={Charlton},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{ea419dad293f23a28a5d572f6361a844}
+      \strng{fullhash}{ea419dad293f23a28a5d572f6361a844}
+      \strng{bibnamehash}{ea419dad293f23a28a5d572f6361a844}
+      \strng{authorbibnamehash}{ea419dad293f23a28a5d572f6361a844}
+      \strng{authornamehash}{ea419dad293f23a28a5d572f6361a844}
+      \strng{authorfullhash}{ea419dad293f23a28a5d572f6361a844}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geographically Weighted Regression: The Analysis of Spatially Varying Relationships}
+      \field{year}{2003}
+    \endentry
+    \entry{Henon1976}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd054ee6e5e0c5a53c3479dc148a6157}{%
+           family={Henon},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd054ee6e5e0c5a53c3479dc148a6157}
+      \strng{fullhash}{bd054ee6e5e0c5a53c3479dc148a6157}
+      \strng{bibnamehash}{bd054ee6e5e0c5a53c3479dc148a6157}
+      \strng{authorbibnamehash}{bd054ee6e5e0c5a53c3479dc148a6157}
+      \strng{authornamehash}{bd054ee6e5e0c5a53c3479dc148a6157}
+      \strng{authorfullhash}{bd054ee6e5e0c5a53c3479dc148a6157}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{number}{50}
+      \field{title}{A two-dimensional mapping with a strange attractor}
+      \field{volume}{1}
+      \field{year}{1976}
+      \field{pages}{69\bibrangedash 77}
+      \range{pages}{9}
+    \endentry
+    \entry{Hoffman2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=65d041d3747da954e1feeb5cba9ad19c}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cf468839ce07b7897d9d60a59f7be2a1}{%
+           family={Oshan},
+           familyi={O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3282836ff822f476e32b1de2dd90926d}
+      \strng{fullhash}{3282836ff822f476e32b1de2dd90926d}
+      \strng{bibnamehash}{3282836ff822f476e32b1de2dd90926d}
+      \strng{authorbibnamehash}{3282836ff822f476e32b1de2dd90926d}
+      \strng{authornamehash}{3282836ff822f476e32b1de2dd90926d}
+      \strng{authorfullhash}{3282836ff822f476e32b1de2dd90926d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GIS Research UK Conference Proceedings}
+      \field{title}{A Supervised Heuristic for a Balanced Approach to Regionalization}
+      \field{year}{2021}
+    \endentry
+    \entry{Kiefer1953}{article}{}
+      \name{author}{1}{}{%
+        {{hash=813adedef62022bf4d7bb90c68a674b1}{%
+           family={Kiefer},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{813adedef62022bf4d7bb90c68a674b1}
+      \strng{fullhash}{813adedef62022bf4d7bb90c68a674b1}
+      \strng{bibnamehash}{813adedef62022bf4d7bb90c68a674b1}
+      \strng{authorbibnamehash}{813adedef62022bf4d7bb90c68a674b1}
+      \strng{authornamehash}{813adedef62022bf4d7bb90c68a674b1}
+      \strng{authorfullhash}{813adedef62022bf4d7bb90c68a674b1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the American Mathematical Society}
+      \field{number}{4}
+      \field{title}{Sequential minimax search for a maximum}
+      \field{volume}{3}
+      \field{year}{1953}
+    \endentry
+    \entry{Oshan2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e3137bfa707f2bec8fa80d185df3db4b}{%
+           family={Oshan},
+           familyi={O\bibinitperiod},
+           given={T.M.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ae6f64f7b429f6425fbe070323390f1b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=85f0e38b45e89e8bc262323a95a7da93}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=aeeedb1b8c5e421f65f0e25503881140}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={L.\bibnamedelimi J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4d7f87b2a9739a941de23c97921123a2}{%
+           family={Fotheringham},
+           familyi={F\bibinitperiod},
+           given={A.S.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{526de980c92e8c97223c58e9c04a04fc}
+      \strng{fullhash}{57d7f7db65527ec1af590aff69810063}
+      \strng{bibnamehash}{526de980c92e8c97223c58e9c04a04fc}
+      \strng{authorbibnamehash}{526de980c92e8c97223c58e9c04a04fc}
+      \strng{authornamehash}{526de980c92e8c97223c58e9c04a04fc}
+      \strng{authorfullhash}{57d7f7db65527ec1af590aff69810063}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISPRS Journal of Geo-Information}
+      \field{number}{8}
+      \field{title}{mgwr: A Python implementation of multiscale geographically weighted regression for investigating process spatial heterogeneity and scale}
+      \field{volume}{6}
+      \field{year}{2019}
+      \field{pages}{269}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
