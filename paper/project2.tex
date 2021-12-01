@@ -31,7 +31,11 @@ While many improvements have been made to GWR since its inception (in particular
 
 \section{Problem Structure}
 \label{sec:problem}
-Following ideas developed in \cite{Hoffman2021}, it is natural to consider the AICc as a combination of two terms acting independently: the log-likelihood, as a proxy for model fit, and the GWR correction, as a penalty for overfitting. Both of these vary as a function of bandwidth, but the way in which they vary differs between the two.
+Following ideas developed in \cite{Hoffman2021}, it is natural to consider the AICc as a combination of two terms acting independently: the log-likelihood (as a proxy for model fit) and the GWR correction (as a penalty for overfitting). Both of these vary as a function of bandwidth, but the way in which they vary differs between the two. The GWR correction is a monotonically increasing function of $k$ and blows up at $k = n-2$ due to its denominator: \begin{align*}
+    \lim_{k\rightarrow n-2} \frac{2n(k+1)}{n-k-2} = \infty
+\end{align*} but recovers ``normal'' behavior after moving beyond this asymptote. Recall that $k$ is the effective number of parameters for a particular bandwidth; that is, the number of independent coefficient estimates calibrated by the model. Thanks to the generality of GWR, the model reverts to a global model when the bandwidth is infinite---that is, when all the locations borrow data from each other, $k = p$ (the number of covariates at the global level). Conversely, when the bandwidth is 0, each location has a completely independent regression calibrated at it and therefore there are effectively $n$ independent parameters being calibrated. Hence, $k \in [p, n]$ is a decreasing function of bandwidth and we have that the correction is a decreasing function of the bandwidth as well.
+
+In fact, the GWR correction is a very well-behaved decreasing function of the bandwidth. The log-likelihood, on the other hand, evades such guarantees. As such, the log-likelihood drives the AICc curve
 
 \begin{itemize}
     \item Decompose the AICc

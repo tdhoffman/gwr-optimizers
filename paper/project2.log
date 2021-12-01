@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.20)  30 NOV 2021 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.20)  30 NOV 2021 21:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,66 +632,71 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 37.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 41.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-Underfull \hbox (badness 2088) in paragraph at lines 66--67
+) [2]
+Underfull \hbox (badness 2088) in paragraph at lines 70--71
 []\OT1/ppl/m/n/12 Another pro-to-typ-i-cal derivative-free op-ti-
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 66--67
+Underfull \hbox (badness 2418) in paragraph at lines 70--71
 \OT1/ppl/m/n/12 method im-proved the so-lu-tion at each it-
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 66--67
+Underfull \hbox (badness 2486) in paragraph at lines 70--71
 \OT1/ppl/m/n/12 er-a-tion. By bal-anc-ing the two, it has a
  []
 
-[2]
-Underfull \hbox (badness 6944) in paragraph at lines 81--81
+
+Underfull \vbox (badness 3260) has occurred while \output is active []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 85--85
 []\OT1/ppl/m/n/12 For steep-ness, the base-line curve was
  []
 
-<../figures/baseline.png, id=81, 433.62pt x 289.08pt>
+[3]
+<../figures/baseline.png, id=92, 433.62pt x 289.08pt>
 File: ../figures/baseline.png Graphic file (type png)
 <use ../figures/baseline.png>
-Package pdftex.def Info: ../figures/baseline.png  used on input line 91.
+Package pdftex.def Info: ../figures/baseline.png  used on input line 95.
 (pdftex.def)             Requested size: 252.94499pt x 168.63252pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 91--92
+Overfull \hbox (5.0pt too wide) in paragraph at lines 95--96
  [][] 
  []
 
-[3 <../figures/baseline.png>]
-Underfull \hbox (badness 2781) in paragraph at lines 105--105
+
+Underfull \hbox (badness 2781) in paragraph at lines 109--109
 \OT1/ppl/m/n/12 ci-ple''. In: \OT1/ppl/m/it/12 2nd In-ter-na-tional Sym-po-sium
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 105--105
+Underfull \hbox (badness 1742) in paragraph at lines 109--109
 \OT1/ppl/m/n/12 with-out Deriva-tives''. In: Prentice-Hall,
  []
 
-[4
 
-]
-<../figures/multiple-mins-curves.png, id=100, 578.16pt x 469.755pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <../figures/baseline.png>]
+<../figures/multiple-mins-curves.png, id=101, 578.16pt x 469.755pt>
 File: ../figures/multiple-mins-curves.png Graphic file (type png)
 <use ../figures/multiple-mins-curves.png>
-Package pdftex.def Info: ../figures/multiple-mins-curves.png  used on input line 113.
+Package pdftex.def Info: ../figures/multiple-mins-curves.png  used on input line 117.
 (pdftex.def)             Requested size: 505.89pt x 411.03462pt.
-<../figures/steep-curves.png, id=101, 578.16pt x 469.755pt>
+<../figures/steep-curves.png, id=102, 578.16pt x 469.755pt>
 File: ../figures/steep-curves.png Graphic file (type png)
 <use ../figures/steep-curves.png>
-Package pdftex.def Info: ../figures/steep-curves.png  used on input line 120.
+Package pdftex.def Info: ../figures/steep-curves.png  used on input line 124.
 (pdftex.def)             Requested size: 505.89pt x 411.03462pt.
-<../figures/noisy-curves.png, id=102, 578.16pt x 469.755pt>
+<../figures/noisy-curves.png, id=103, 578.16pt x 469.755pt>
 File: ../figures/noisy-curves.png Graphic file (type png)
 <use ../figures/noisy-curves.png>
-Package pdftex.def Info: ../figures/noisy-curves.png  used on input line 127.
+Package pdftex.def Info: ../figures/noisy-curves.png  used on input line 131.
 (pdftex.def)             Requested size: 505.89pt x 411.03462pt.
  [5
 
@@ -710,11 +715,11 @@ Here is how much of TeX's memory you used:
  428105 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,66p,1121b,1185s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on project2.pdf (7 pages, 220385 bytes).
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on project2.pdf (7 pages, 226090 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
