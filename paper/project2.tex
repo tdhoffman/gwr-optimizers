@@ -31,36 +31,32 @@ While many improvements have been made to GWR since its inception (in particular
 
 \section{Problem Structure}
 \label{sec:problem}
-Following ideas developed in \cite{Hoffman2021}, it is natural to consider the AICc as a combination of two terms acting independently: the log-likelihood (as a proxy for model fit) and the GWR correction (as a penalty for overfitting). Both of these vary as a function of bandwidth, but the way in which they vary differs between the two. The GWR correction is a monotonically increasing function of $k$ and blows up at $k = n-2$ due to its denominator: \begin{align*}
+Following ideas developed in \cite{Hoffman2021}, it is natural to consider the AICc as a combination of two terms acting independently: the log-likelihood (as a proxy for model fit) and the GWR correction (as a penalty for overfitting). Both of these vary as a function of bandwidth, but the way in which they vary differs between the two. The GWR correction is a monotonically increasing function of $k$ and blows up at $k = n-2$ due to its denominator--- \begin{align*}
     \lim_{k\rightarrow n-2} \frac{2n(k+1)}{n-k-2} = \infty
-\end{align*} but recovers ``normal'' behavior after moving beyond this asymptote. Recall that $k$ is the effective number of parameters for a particular bandwidth; that is, the number of independent coefficient estimates calibrated by the model. Thanks to the generality of GWR, the model reverts to a global model when the bandwidth is infinite---that is, when all the locations borrow data from each other, $k = p$ (the number of covariates at the global level). Conversely, when the bandwidth is 0, each location has a completely independent regression calibrated at it and therefore there are effectively $n$ independent parameters being calibrated. Hence, $k \in [p, n]$ is a decreasing function of bandwidth and we have that the correction is a decreasing function of the bandwidth as well.
+\end{align*} ---but recovers ``normal'' behavior after moving beyond this asymptote. Recall that $k$ is the effective number of parameters for a particular bandwidth; that is, the number of independent coefficient estimates calibrated by the model. Thanks to the generality of GWR, the model reverts to a global model when the bandwidth is infinite---that is, when all the locations borrow data from each other, $k = p$ (the number of covariates at the global level). Conversely, when the bandwidth is 0, each location has a completely independent regression calibrated at it and therefore there are effectively $n$ independent parameters being calibrated. Hence, $k \in [p, n]$ is a decreasing function of bandwidth and we have that the correction is a decreasing function of the bandwidth as well.
 
-In fact, the GWR correction is a very well-behaved decreasing function of the bandwidth. The log-likelihood, on the other hand, evades such guarantees. As such, the log-likelihood drives the AICc curve
+In fact, the GWR correction is a very well-behaved decreasing function of the bandwidth. The log-likelihood, on the other hand, evades such guarantees. As such, the log-likelihood drives the AICc curve; the strength of its counterbalance to the GWR correction is what determines where the optimal bandwidth lies.
 
-\begin{itemize}
-    \item Decompose the AICc
-    \item Outline the three components that really affect optimization here: minima, steepness, and noise
-\end{itemize}
+Figure \ref{fig:sample-aicc} showcases a well-behaved AICc created from synthetic data. The curve has three attributes that may prove challenging for optimizers to handle: its minimizers, its steepness, and its noise. Each of these will be discussed in the following subsections.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{../figures/sample-aicc.png} 
+    \caption{An example of a well-behaved AICc curve with the absolute minimum marked in red.}
+    \label{fig:sample-aicc}
+\end{figure}
 
 \subsection{Minima}
-\begin{itemize}
-    \item start with what we know (first three bullets on that slide) which is the foundation for how GWR works
-    \item spend some time discussing multiple minimizers
-    \item explain why this is dangerous for an optimizer / how an optimizer should account for it
-\end{itemize}
+As discussed above, minimizers of an AICc curve indicate appropriate bandwidths for analysis and the absolute minimizer is the best bandwidth for analysis. If the absolute minimizer is on the boundary of the search domain, then the process is local (if it's on the left boundary) or global (if it's on the right boundary). Optimization methods, however, may run into issues if the AICc curve exhibits multiple minima. Local minima occur at bandwidths where model fit is markedly better than the bandwidths in the surrounding region, but does not outpace the complexity correction enough to dominate the absolute minimum. These can be thought of as artifacts of the modifiable areal unit problem (MAUP), although they can be difficult to distinguish from noise (Section \ref{sec:problem-noise}). Some optimizers are prone to getting trapped in local minima, so any optimization done on AICc curves must be robust to this. 
 
 \subsection{Steepness}
-\begin{itemize}
-    \item Emphasize that due to fixed (monotonic) nature of the correction, the steepness is nearly completely determined by the log-likelihood. Process variation is the name of the game
-    \item Bandwidth CI issues---CIs can be wide even if the optimum is well-defined. How does Golden section search address this at present?
-    \item explain why this is dangerous for an optimizer / how an optimizer should account for it   
-\end{itemize}
+Since the GWR correction is fixed and monotonic, the steepness of the curve is almost wholly determined by the log-likelihood. As remarked earlier, process variation plays a big role in influencing the shape of the AICc curve. Here, an interval where the curve is very flat indicates that the bandwidths in that interval would all be fairly viable. In cases when the process is global, the absolute minimum is on the right boundary of the search domain and the curve is often very flat near it. Due to the Extreme Value Theorem, the AICc (a continuous function of the bandwidth) is guaranteed to have a minimum so long as the search interval is closed and bounded. However, convergence to this minimum can be very slow when the curve is nearly flat, since the optimization methods are not privy to the slope of the function.
+
+Moreover, the confidence in this minimum can be low even though the minimum is well-defined. Current GWR software allows for the computation of bandwidth confidence intervals, produced by randomizing the initialization for a golden-section search and performing inference on the resulting data. If the curve is essentially flat near the minimum, then golden-section search will often achieve its desired convergence tolerance long before attaining the minimum, thus leading to the aforementioned wide confidence intervals. In the limit, this distribution will concentrate around the absolute minimum, but the rate of this concentration may be slow. 
 
 \subsection{Noise}
-\begin{itemize}
-    \item explain the way that noise develops in these curves---due to the way areal units work
-    \item explain why this is dangerous for an optimizer / how an optimizer should account for it
-\end{itemize}
+\label{sec:problem-noise}
+Noise in the AICc curve is natural for real datasets due to the calibration process. If some areal units are much larger than others, then the model fit might drastically change when the bandwidth becomes large enough to borrow data from those locations. In this way, the AICc may become sensitive to small perturbations in the bandwidth and develop jagged-looking noise. These jitters in the AICc curve are not meaningful local minima, but it could be difficult for an optimization algorithm to determine that. In short, any viable optimizer must be able to distinguish between noise, a local minimum, and the absolute minimum.
 
 \section{Methods}
 \label{sec:methods}
@@ -70,6 +66,8 @@ This work tests four optimizers for finding the optimal bandwidth. First, grid s
 Another prototypical derivative-free optimizer, Brent's method, was also tested \cite{Brent1973}. Brent's method combines the bisection method and a quadractic version of the secant method (inverse quadractic interpolation instead of linear interpolation) by testing how much each method improved the solution at each iteration. By balancing the two, it has a worse worst-case complexity than the bisection method, but converges superlinearly if the objective is well-behaved.
 
 Finally, particle swarm optimization (PSO) was considered as a heuristic approach to optimization \cite{Bonyadi2017}. PSO lets loose a swarm of particles (candidate solutions) in the domain which search for minima by moving with a certain amount of velocity. On each iteration, the particles use this built-in velocity, knowledge of their own best position, and knowledge of the swarm's best position to determine where to move. As a result, PSO can effectively explore local minima: as long as one particle reaches the absolute minimum, the swarm has succeeded. Additionally, due to the highly parallel behavior of the particles, PSO lends itself well to parallel computing implementations. These can improve the runtime of the algorithm, but do not improve the number of objective calls done by the algorithm. While these parallel methods are not explored in this paper, they could offer significant practical speedups in implementation.
+
+All the optimizers were run with a tolerance of $\varepsilon = 10^{-10}$ and up to a maximum number of iterations of 1000.
 
 \subsection{Sample Data}
 As explained in Section \ref{sec:problem}, the AICc curves typically look like smooth checkmarks. The baseline curve (Figure \ref{fig:baseline}) was therefore chosen to be $b(x) = (x^2 - x + 600)/2x$ for $x > 0$ as it depicts well this smooth, unimodal shape. Subsequently, this objective was altered along the three axes of study: minima, steepness, and noise. All experiments were conducted with a low amount of added noise to simulate how real AICc curves behave.
@@ -83,12 +81,12 @@ To introduce multiple minima, a rule was prescribed that adds more checkmark-sha
 \end{align*} 
 
 For steepness, the baseline curve was parametrized with an additional steepness factor that altered the slope of the curve's tail (Figure \ref{fig:steep-curves}). These curves took the form \begin{align*}
-    b_\sigma(x) = (\sigma x^2 - x + 600)/2x
+    b_\sigma(x) = (\sigma x^2 - x + 600)/2x + \text{noise}
 \end{align*} where $\sigma > 0$ was the steepness parameter.
 
-To add the noise, the generalized Hénon map was used \cite{Henon1976}. The noise needed to be non-random so it could be controlled across all optimizers, so a hyperchaotic dynamical system was utilized to ensure the noise could not be predicted but were replicable. The discrete-time dynamical system takes the form \begin{align*}
+To add the noise, the generalized Hénon map was used \cite{Henon1976}. The noise needed to be non-random so it could be controlled across all optimizers, so a hyperchaotic dynamical system was utilized to ensure the noise could not be predicted but were replicable. The update rule for the discrete-time dynamical system takes the form \begin{align*}
     x_i = a - x_{i-1}^2 - bx_{i-2}
-\end{align*} where $a = 1.76$ and $b = 0.1$ are taken to be fixed parameters that are known to generate hyperchaos. To generate the noise, the system was run for 100 iterations using initial conditions $x_0 = 0$ and $x_1 = x$, where $x$ is the point for which the noise was requested (Figure \ref{fig:noisy-curves}). 
+\end{align*} where $a = 1.76$ and $b = 0.1$ are taken to be fixed parameters that are known to generate hyperchaos. To generate the noise, the system was run for 100 iterations using initial conditions $x_0 = 0$ and $x_1 = x$, where $x$ is the point for which the noise was requested (Figure \ref{fig:noisy-curves}). The variance of the noise could then be adjusted simply by scaling the output from the Hénon map generator.
 
 \begin{figure}
     \centering
@@ -103,7 +101,17 @@ present results and explain what they mean. time/accuracy tradeoff (obv)
 
 \section{Conclusion}
 \label{sec:conclusion}
-conclude, discuss limitations of this, and point to future work
+\begin{itemize}
+    \item conceptual deconstruction
+    \item numerical experiments to examine hypotheses and results
+\end{itemize}
+
+This study was highly limited on time and scope and would benefit from a more mathematical analysis of the internal mechanics of GWR. Recent analyses (\cite{Feng2021}'s deconstruction of stochastic gradient descent, e.g.) have conducted deep dives into existing methods that shed light on why the methods work. Importantly, the papers then extend these insights to develop novel improved variants. It would be interesting and possibly fruitful to follow a similar procedure for GWR.
+
+Future work on this research direction would require more exhaustive experiments that dig into the interplay between the optimization methods and the three components of minima, steepness, and noise. Additionally, it would be important to address the broad variety of PSO variants and consider the implications of choosing different implementations. The metaoptimization of PSO hyperparameters was only cursorily considered in this work, and would be critical to examine further in order to determine the true viability of the method. Also, a detailed dive into local minima of the AICc curve is warranted---indeed, the idea of giving meaning to local minima at all may be faulty (everything but the absolute minimum might just be noise).
+
+\subsection*{Code availability}
+The code used to run the experiments in this paper can be found in \href{https://github.com/thoffman1/gwr-optimizers}{this Github repository}.
 
 \printbibliography
 \pagebreak
@@ -131,6 +139,27 @@ conclude, discuss limitations of this, and point to future work
     \includegraphics[width=\textwidth]{../figures/noisy-curves.png}
     \caption{Examples of four noise levels used in the numerical experiments.}
     \label{fig:noisy-curves}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{../figures/multmins-res.png}
+    \caption{Results for testing the optimizers on curves with multiple minima.}
+    \label{fig:multmins-res}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{../figures/steepness-res.png}
+    \caption{Results for testing the optimizers on curves with varying steepnesses.}
+    \label{fig:steep-res}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{../figures/noisy-res.png}
+    \caption{Results for testing the optimizers on curves with varying levels of noise.}
+    \label{fig:noisy-res}
 \end{figure}
 
 \end{document}

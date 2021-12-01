@@ -99,6 +99,55 @@
       \field{title}{Algorithms for Minimization without Derivatives}
       \field{year}{1973}
     \endentry
+    \entry{Feng2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b8b88d61c79de60e6e1b5d44e03f5dec}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a2ef62e49b2195f905444a9b5432b653}{%
+           family={Tu},
+           familyi={T\bibinitperiod},
+           given={Yuhai},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{c7bba0a80fb785e24f7fced0e07edfef}
+      \strng{fullhash}{c7bba0a80fb785e24f7fced0e07edfef}
+      \strng{bibnamehash}{c7bba0a80fb785e24f7fced0e07edfef}
+      \strng{authorbibnamehash}{c7bba0a80fb785e24f7fced0e07edfef}
+      \strng{authornamehash}{c7bba0a80fb785e24f7fced0e07edfef}
+      \strng{authorfullhash}{c7bba0a80fb785e24f7fced0e07edfef}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{3}
+      \field{number}{9}
+      \field{shortjournal}{Proc Natl Acad Sci {USA}}
+      \field{title}{The inverse variance–flatness relation in stochastic gradient descent is critical for finding flat minima}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{volume}{118}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1073/pnas.2015617118
+      \endverb
+      \verb{urlraw}
+      \verb http://www.pnas.org/lookup/doi/10.1073/pnas.2015617118
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/lookup/doi/10.1073/pnas.2015617118
+      \endverb
+    \endentry
     \entry{Fotheringham2003}{book}{}
       \name{author}{3}{}{%
         {{hash=4d7f87b2a9739a941de23c97921123a2}{%
