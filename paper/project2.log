@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.20)  30 NOV 2021 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.9.20)  1 DEC 2021 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,6 +141,79 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count271
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 141.
+
+\mult@box=\box52
+\multicol@leftmargin=\dimen158
+\c@unbalance=\count272
+\c@collectmore=\count273
+\doublecol@number=\count274
+\multicoltolerance=\count275
+\multicolpretolerance=\count276
+\full@width=\dimen159
+\page@free=\dimen160
+\premulticols=\dimen161
+\postmulticols=\dimen162
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box53
+\last@line=\box54
+\maxbalancingoverflow=\dimen163
+\mult@rightbox=\box55
+\mult@grightbox=\box56
+\mult@gfirstbox=\box57
+\mult@firstbox=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count277
+\c@columnbadness=\count278
+\c@finalcolumnbadness=\count279
+\last@try=\dimen164
+\multicolovershoot=\dimen165
+\multicolundershoot=\dimen166
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count280
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -155,14 +228,14 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count271
+\etb@tempcnta=\count281
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count272
+\lrq@indent=\count282
  (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
@@ -171,62 +244,62 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count273
-\c@listtotal=\count274
-\c@listcount=\count275
-\c@liststart=\count276
-\c@liststop=\count277
-\c@citecount=\count278
-\c@citetotal=\count279
-\c@multicitecount=\count280
-\c@multicitetotal=\count281
-\c@instcount=\count282
-\c@maxnames=\count283
-\c@minnames=\count284
-\c@maxitems=\count285
-\c@minitems=\count286
-\c@citecounter=\count287
-\c@maxcitecounter=\count288
-\c@savedcitecounter=\count289
-\c@uniquelist=\count290
-\c@uniquename=\count291
-\c@refsection=\count292
-\c@refsegment=\count293
-\c@maxextratitle=\count294
-\c@maxextratitleyear=\count295
-\c@maxextraname=\count296
-\c@maxextradate=\count297
-\c@maxextraalpha=\count298
-\c@abbrvpenalty=\count299
-\c@highnamepenalty=\count300
-\c@lownamepenalty=\count301
-\c@maxparens=\count302
-\c@parenlevel=\count303
-\blx@tempcnta=\count304
-\blx@tempcntb=\count305
-\blx@tempcntc=\count306
-\blx@maxsection=\count307
-\blx@maxsegment@0=\count308
-\blx@notetype=\count309
-\blx@parenlevel@text=\count310
-\blx@parenlevel@foot=\count311
-\blx@sectionciteorder@0=\count312
-\blx@entrysetcounter=\count313
-\blx@biblioinstance=\count314
-\labelnumberwidth=\skip52
-\labelalphawidth=\skip53
-\biblabelsep=\skip54
-\bibitemsep=\skip55
-\bibnamesep=\skip56
-\bibinitsep=\skip57
-\bibparsep=\skip58
-\bibhang=\skip59
+\c@tabx@nest=\count283
+\c@listtotal=\count284
+\c@listcount=\count285
+\c@liststart=\count286
+\c@liststop=\count287
+\c@citecount=\count288
+\c@citetotal=\count289
+\c@multicitecount=\count290
+\c@multicitetotal=\count291
+\c@instcount=\count292
+\c@maxnames=\count293
+\c@minnames=\count294
+\c@maxitems=\count295
+\c@minitems=\count296
+\c@citecounter=\count297
+\c@maxcitecounter=\count298
+\c@savedcitecounter=\count299
+\c@uniquelist=\count300
+\c@uniquename=\count301
+\c@refsection=\count302
+\c@refsegment=\count303
+\c@maxextratitle=\count304
+\c@maxextratitleyear=\count305
+\c@maxextraname=\count306
+\c@maxextradate=\count307
+\c@maxextraalpha=\count308
+\c@abbrvpenalty=\count309
+\c@highnamepenalty=\count310
+\c@lownamepenalty=\count311
+\c@maxparens=\count312
+\c@parenlevel=\count313
+\blx@tempcnta=\count314
+\blx@tempcntb=\count315
+\blx@tempcntc=\count316
+\blx@maxsection=\count317
+\blx@maxsegment@0=\count318
+\blx@notetype=\count319
+\blx@parenlevel@text=\count320
+\blx@parenlevel@foot=\count321
+\blx@sectionciteorder@0=\count322
+\blx@entrysetcounter=\count323
+\blx@biblioinstance=\count324
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count315
-\c@maxcomprange=\count316
-\c@mincompwidth=\count317
+\c@mincomprange=\count325
+\c@maxcomprange=\count326
+\c@mincompwidth=\count327
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -234,88 +307,88 @@ File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count318
-\c@savedafterword=\count319
-\c@annotator=\count320
-\c@savedannotator=\count321
-\c@author=\count322
-\c@savedauthor=\count323
-\c@bookauthor=\count324
-\c@savedbookauthor=\count325
-\c@commentator=\count326
-\c@savedcommentator=\count327
-\c@editor=\count328
-\c@savededitor=\count329
-\c@editora=\count330
-\c@savededitora=\count331
-\c@editorb=\count332
-\c@savededitorb=\count333
-\c@editorc=\count334
-\c@savededitorc=\count335
-\c@foreword=\count336
-\c@savedforeword=\count337
-\c@holder=\count338
-\c@savedholder=\count339
-\c@introduction=\count340
-\c@savedintroduction=\count341
-\c@namea=\count342
-\c@savednamea=\count343
-\c@nameb=\count344
-\c@savednameb=\count345
-\c@namec=\count346
-\c@savednamec=\count347
-\c@translator=\count348
-\c@savedtranslator=\count349
-\c@shortauthor=\count350
-\c@savedshortauthor=\count351
-\c@shorteditor=\count352
-\c@savedshorteditor=\count353
-\c@labelname=\count354
-\c@savedlabelname=\count355
-\c@institution=\count356
-\c@savedinstitution=\count357
-\c@lista=\count358
-\c@savedlista=\count359
-\c@listb=\count360
-\c@savedlistb=\count361
-\c@listc=\count362
-\c@savedlistc=\count363
-\c@listd=\count364
-\c@savedlistd=\count365
-\c@liste=\count366
-\c@savedliste=\count367
-\c@listf=\count368
-\c@savedlistf=\count369
-\c@location=\count370
-\c@savedlocation=\count371
-\c@organization=\count372
-\c@savedorganization=\count373
-\c@origlocation=\count374
-\c@savedoriglocation=\count375
-\c@origpublisher=\count376
-\c@savedorigpublisher=\count377
-\c@publisher=\count378
-\c@savedpublisher=\count379
-\c@language=\count380
-\c@savedlanguage=\count381
-\c@origlanguage=\count382
-\c@savedoriglanguage=\count383
-\c@pageref=\count384
-\c@savedpageref=\count385
-\shorthandwidth=\skip60
-\shortjournalwidth=\skip61
-\shortserieswidth=\skip62
-\shorttitlewidth=\skip63
-\shortauthorwidth=\skip64
-\shorteditorwidth=\skip65
-\locallabelnumberwidth=\skip66
-\locallabelalphawidth=\skip67
-\localshorthandwidth=\skip68
-\localshortjournalwidth=\skip69
-\localshortserieswidth=\skip70
-\localshorttitlewidth=\skip71
-\localshortauthorwidth=\skip72
-\localshorteditorwidth=\skip73
+\c@afterword=\count328
+\c@savedafterword=\count329
+\c@annotator=\count330
+\c@savedannotator=\count331
+\c@author=\count332
+\c@savedauthor=\count333
+\c@bookauthor=\count334
+\c@savedbookauthor=\count335
+\c@commentator=\count336
+\c@savedcommentator=\count337
+\c@editor=\count338
+\c@savededitor=\count339
+\c@editora=\count340
+\c@savededitora=\count341
+\c@editorb=\count342
+\c@savededitorb=\count343
+\c@editorc=\count344
+\c@savededitorc=\count345
+\c@foreword=\count346
+\c@savedforeword=\count347
+\c@holder=\count348
+\c@savedholder=\count349
+\c@introduction=\count350
+\c@savedintroduction=\count351
+\c@namea=\count352
+\c@savednamea=\count353
+\c@nameb=\count354
+\c@savednameb=\count355
+\c@namec=\count356
+\c@savednamec=\count357
+\c@translator=\count358
+\c@savedtranslator=\count359
+\c@shortauthor=\count360
+\c@savedshortauthor=\count361
+\c@shorteditor=\count362
+\c@savedshorteditor=\count363
+\c@labelname=\count364
+\c@savedlabelname=\count365
+\c@institution=\count366
+\c@savedinstitution=\count367
+\c@lista=\count368
+\c@savedlista=\count369
+\c@listb=\count370
+\c@savedlistb=\count371
+\c@listc=\count372
+\c@savedlistc=\count373
+\c@listd=\count374
+\c@savedlistd=\count375
+\c@liste=\count376
+\c@savedliste=\count377
+\c@listf=\count378
+\c@savedlistf=\count379
+\c@location=\count380
+\c@savedlocation=\count381
+\c@organization=\count382
+\c@savedorganization=\count383
+\c@origlocation=\count384
+\c@savedoriglocation=\count385
+\c@origpublisher=\count386
+\c@savedorigpublisher=\count387
+\c@publisher=\count388
+\c@savedpublisher=\count389
+\c@language=\count390
+\c@savedlanguage=\count391
+\c@origlanguage=\count392
+\c@savedoriglanguage=\count393
+\c@pageref=\count394
+\c@savedpageref=\count395
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+\locallabelnumberwidth=\skip68
+\locallabelalphawidth=\skip69
+\localshorthandwidth=\skip70
+\localshortjournalwidth=\skip71
+\localshortserieswidth=\skip72
+\localshorttitlewidth=\skip73
+\localshortauthorwidth=\skip74
+\localshorteditorwidth=\skip75
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -325,19 +398,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count386
-\c@textcitetotal=\count387
-\c@textcitemaxnames=\count388
-\c@biburlbigbreakpenalty=\count389
-\c@biburlbreakpenalty=\count390
-\c@biburlnumpenalty=\count391
-\c@biburlucpenalty=\count392
-\c@biburllcpenalty=\count393
+\c@textcitecount=\count396
+\c@textcitetotal=\count397
+\c@textcitemaxnames=\count398
+\c@biburlbigbreakpenalty=\count399
+\c@biburlbreakpenalty=\count400
+\c@biburlnumpenalty=\count401
+\c@biburlucpenalty=\count402
+\c@biburllcpenalty=\count403
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count394
+\c@smartand=\count404
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -347,8 +420,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count395
-\c@bbx:relatedtotal=\count396
+\c@bbx:relatedcount=\count405
+\c@bbx:relatedtotal=\count406
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -383,9 +456,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen158
-\Hy@linkcounter=\count397
-\Hy@pagecounter=\count398
+\@linkdim=\dimen167
+\Hy@linkcounter=\count407
+\Hy@pagecounter=\count408
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -397,7 +470,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count399
+\Hy@SavedSpaceFactor=\count409
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -410,17 +483,17 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count400
+\c@Hy@tempcnt=\count410
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen159
+\XeTeXLinkMargin=\dimen168
  (/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count401
-\Field@Width=\dimen160
-\Fld@charsize=\dimen161
+\Fld@menulength=\count411
+\Field@Width=\dimen169
+\Fld@charsize=\dimen170
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -434,9 +507,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count402
-\c@Item=\count403
-\c@Hfootnote=\count404
+\Hy@abspage=\count412
+\c@Item=\count413
+\c@Hfootnote=\count414
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -445,8 +518,8 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
 with kernel methods
 )
-\Fld@listcount=\count405
-\c@bookmark@seq@number=\count406
+\Fld@listcount=\count415
+\c@bookmark@seq@number=\count416
  (/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -454,17 +527,17 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip74
+\Hy@SectionHShift=\skip76
 )
-\@quotelevel=\count407
-\@quotereset=\count408
+\@quotelevel=\count417
+\@quotereset=\count418
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 15.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count409
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count419
+\l__pdf_internal_box=\box98
 ) (./project2.aux)
 \openout1 = `project2.aux'.
 
@@ -488,16 +561,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
-\scratchdimen=\dimen162
-\scratchbox=\box53
-\nofMPsegments=\count411
-\nofMParguments=\count412
+\scratchcounter=\count420
+\scratchdimen=\dimen171
+\scratchbox=\box99
+\nofMPsegments=\count421
+\nofMParguments=\count422
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count413
-\MPscratchDim=\dimen163
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
+\MPscratchCnt=\count423
+\MPscratchDim=\dimen172
+\MPnumerator=\count424
+\makeMPintoPDFobject=\count425
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -575,7 +648,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count416
+\c@section@level=\count426
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
@@ -628,6 +701,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 22.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 22.
+
+Underfull \hbox (badness 1147) in paragraph at lines 26--27
+\OT1/ppl/m/n/12 to the band-width, the pro-ce-dure must use
+ []
+
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -648,19 +726,11 @@ Underfull \hbox (badness 2913) in paragraph at lines 50--51
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 50--51
-\OT1/ppl/m/n/12 may run into is-sues if the AICc curve ex-
- []
-
-
 Underfull \hbox (badness 1117) in paragraph at lines 53--54
 \OT1/ppl/m/n/12 tonic, the steep-ness of the curve is al-most
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <../figures/sample-aicc.png>]
+[2 <../figures/sample-aicc.png>]
 Underfull \hbox (badness 2088) in paragraph at lines 66--67
 []\OT1/ppl/m/n/12 Another pro-to-typ-i-cal derivative-free op-ti-
  []
@@ -680,7 +750,7 @@ Underfull \hbox (badness 6944) in paragraph at lines 83--83
 []\OT1/ppl/m/n/12 For steep-ness, the base-line curve was
  []
 
-<../figures/baseline.png, id=93, 433.62pt x 289.08pt>
+<../figures/baseline.png, id=94, 433.62pt x 289.08pt>
 File: ../figures/baseline.png Graphic file (type png)
 <use ../figures/baseline.png>
 Package pdftex.def Info: ../figures/baseline.png  used on input line 93.
@@ -690,72 +760,79 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 93--94
  [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 105.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-Underfull \hbox (badness 2302) in paragraph at lines 106--107
-[]\OT1/ppl/m/n/12 numerical ex-per-i-ments to ex-am-ine hy-
+[4]
+Underfull \hbox (badness 5446) in paragraph at lines 108--109
+\OT1/ppl/m/n/12 tween Brent's method and golden-section
  []
 
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Underfull \hbox (badness 4699) in paragraph at lines 108--109
+\OT1/ppl/m/n/12 search. Across the ex-per-i-ments, Brent's
+ []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 117--117
+Underfull \hbox (badness 1137) in paragraph at lines 108--109
+\OT1/ppl/m/n/12 trade-off, but these re-sults sug-gest a use-ful
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 113--114
+\OT1/ppl/m/n/12 the GWR-corrected AICc. It ex-am-ines at-
+ []
+
+[5 <../figures/baseline.png>]
+Underfull \hbox (badness 2781) in paragraph at lines 123--123
 \OT1/ppl/m/n/12 ci-ple''. In: \OT1/ppl/m/it/12 2nd In-ter-na-tional Sym-po-sium
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 117--117
+Underfull \hbox (badness 1742) in paragraph at lines 123--123
 \OT1/ppl/m/n/12 with-out Deriva-tives''. In: Prentice-Hall,
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 117--117
+Underfull \hbox (badness 1248) in paragraph at lines 123--123
+[]\OT1/ppl/m/n/12 Y. Feng and Y. Tu. ``The in-verse vari-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 123--123
 \OT1/ppl/m/n/12 ance{flatness re-la-tion in stochas-tic gra-
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 117--117
-\OT1/cmtt/m/n/12 / / www . pnas . org / lookup / doi /
- []
-
-[5 <../figures/baseline.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6
-
-]
-<../figures/multiple-mins-curves.png, id=122, 578.16pt x 469.755pt>
+ [6]
+<../figures/multiple-mins-curves.png, id=126, 578.16pt x 469.755pt>
 File: ../figures/multiple-mins-curves.png Graphic file (type png)
 <use ../figures/multiple-mins-curves.png>
-Package pdftex.def Info: ../figures/multiple-mins-curves.png  used on input line 125.
+Package pdftex.def Info: ../figures/multiple-mins-curves.png  used on input line 131.
 (pdftex.def)             Requested size: 505.89pt x 411.03462pt.
-<../figures/steep-curves.png, id=123, 578.16pt x 469.755pt>
+<../figures/steep-curves.png, id=127, 578.16pt x 469.755pt>
 File: ../figures/steep-curves.png Graphic file (type png)
 <use ../figures/steep-curves.png>
-Package pdftex.def Info: ../figures/steep-curves.png  used on input line 132.
+Package pdftex.def Info: ../figures/steep-curves.png  used on input line 138.
 (pdftex.def)             Requested size: 505.89pt x 411.03462pt.
-<../figures/noisy-curves.png, id=124, 578.16pt x 469.755pt>
+<../figures/noisy-curves.png, id=128, 578.16pt x 469.755pt>
 File: ../figures/noisy-curves.png Graphic file (type png)
 <use ../figures/noisy-curves.png>
-Package pdftex.def Info: ../figures/noisy-curves.png  used on input line 139.
+Package pdftex.def Info: ../figures/noisy-curves.png  used on input line 145.
 (pdftex.def)             Requested size: 505.89pt x 411.03462pt.
-<../figures/multmins-res.png, id=125, 722.7pt x 722.7pt>
+<../figures/multmins-res.png, id=129, 722.7pt x 722.7pt>
 File: ../figures/multmins-res.png Graphic file (type png)
 <use ../figures/multmins-res.png>
-Package pdftex.def Info: ../figures/multmins-res.png  used on input line 146.
+Package pdftex.def Info: ../figures/multmins-res.png  used on input line 152.
 (pdftex.def)             Requested size: 505.89pt x 505.88655pt.
-<../figures/steepness-res.png, id=126, 722.7pt x 722.7pt>
+<../figures/steepness-res.png, id=130, 722.7pt x 722.7pt>
 File: ../figures/steepness-res.png Graphic file (type png)
 <use ../figures/steepness-res.png>
-Package pdftex.def Info: ../figures/steepness-res.png  used on input line 153.
+Package pdftex.def Info: ../figures/steepness-res.png  used on input line 159.
 (pdftex.def)             Requested size: 505.89pt x 505.88655pt.
-<../figures/noisy-res.png, id=127, 722.7pt x 722.7pt>
+<../figures/noisy-res.png, id=131, 722.7pt x 722.7pt>
 File: ../figures/noisy-res.png Graphic file (type png)
 <use ../figures/noisy-res.png>
-Package pdftex.def Info: ../figures/noisy-res.png  used on input line 160.
+Package pdftex.def Info: ../figures/noisy-res.png  used on input line 166.
 (pdftex.def)             Requested size: 505.89pt x 505.88655pt.
  [7
 
@@ -767,18 +844,18 @@ Package logreq Info: Writing requests to 'project2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17406 strings out of 478599
- 290495 string characters out of 5854094
- 1026417 words of memory out of 5000000
- 35023 multiletter control sequences out of 15000+600000
- 429237 words of font info for 97 fonts, out of 8000000 for 9000
+ 17507 strings out of 478599
+ 292116 string characters out of 5854094
+ 1031441 words of memory out of 5000000
+ 35124 multiletter control sequences out of 15000+600000
+ 428924 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,66p,1121b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,66p,1246b,1291s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on project2.pdf (12 pages, 421988 bytes).
+Output written on project2.pdf (12 pages, 429744 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  43 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
